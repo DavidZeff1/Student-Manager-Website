@@ -1,0 +1,36 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.icons {
+    text-align: center;
+    padding: 10px;
+    flex-grow: 1; /* Allow the icons to grow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 2; /* Make the logo take up twice the space */
+    font-weight: bold; /* Make the text bold */
+    font-size: 1.5em; /* Increase the font size */
+    font-family: 'Arial', sans-serif; /* Set a nice font */
+}
+
+/* Apply hover effect only to .icons, excluding .logo */
+.icons:not(.logo):hover {
+    background-color: #D4F1F4;
+    border-radius: 50px 50px 0 0;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
