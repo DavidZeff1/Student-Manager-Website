@@ -1,10 +1,10 @@
-import '../CSS/InboxCardComponentCSS.css';
+import '../../CSS/InboxCardComponentCSS.css';
 import { IoMdMail } from "react-icons/io";
 
 function InboxCardComponent(){
     const emails = [
-        {name : 'Ashley Gabes',time:'09:30',text:'hii here are my english notes from last class',img:'/images/Ashley.jpg'},
-        {name : 'Lisa Smith',time:'06:30',text:'are you coming over today to study for our finals? let me know xx',img:'/images/Lisa.jpg'},
+        {name : 'Ashley Gabes',time:'09:30',text:'hii here are my english notes from last class',img:'/images/Ashley.png'},
+        {name : 'Lisa Smith',time:'06:30',text:'are you coming over today to study for our finals? let me know xx',img:'/images/Lisa.png'},
         {name : 'Dan Levi',time:'010:30',text:'here are my math notes. send me yours?',img:'/images/Dan.jpg'}
     ]
         
@@ -34,11 +34,8 @@ function InboxCardComponent(){
                                 <p className="inbox-card-body-item-text">
                                     {item.text}
                                 </p>
-                            </div>
-                            
-                        </div>
-                        
-                        
+                            </div> 
+                        </div>  
                     ))
                 }
             </div>

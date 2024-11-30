@@ -1,9 +1,10 @@
+
 import NavbarComponent from "./NavbarComponent"
-import NextClassCardComponent from "./NextClassCardComponent";
-import ToDoCardComponent from "./ToDoCardComponent";
-import InboxCardComponent from "./InboxCardComponent";
-import CalendarCardComponent from "./CalendarCardComponent";
-import '../CSS/HomeComponentCSS.css';
+import NextClassCardComponent from "../HomePageComponents/NextClassCardComponent";
+import ToDoCardComponent from "../HomePageComponents/ToDoCardComponent";
+import InboxCardComponent from "../HomePageComponents/InboxCardComponent";
+import CalendarCardComponent from "../HomePageComponents/CalendarCardComponent";
+import '../../CSS/HomeComponentCSS.css';
 
 function HomeComponent(){
 

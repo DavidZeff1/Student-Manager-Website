@@ -1,0 +1,8 @@
+.class-container{
+    margin-left: 4rem;
+}
+.class-container-topics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}

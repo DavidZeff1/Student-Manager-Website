@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { IoIosArrowDown,IoIosArrowUp } from "react-icons/io";
-import '../CSS/ToDoCardCSS.css'
+import '../../CSS/ToDoCardCSS.css'
 
 
 
 
 function ToDoCardComponent(){
     const [examsVisible, setExamsVisible] = useState(false);
-    const [examsList, setExamsList] = useState([
+    const [examsList] = useState([
         { title: "Math Exam",date:"Tue April 03", completed: false },
         { title: "History Exam",date:"Wed July 06", completed: false }
     ]);
     const [ProjectsVisible, setProjectsVisible] = useState(false);
-    const [ProjectsList, setProjectsList] = useState([
+    const [ProjectsList] = useState([
         { title: "Math Projects",date:"Tue April 03", completed: false },
         { title: "History Projects",date:"Wed July 06", completed: false },
         { title: "Physics Projects",date:"Wed July 07", completed: false }

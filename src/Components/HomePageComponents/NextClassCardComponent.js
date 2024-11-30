@@ -1,5 +1,5 @@
 import { FaGraduationCap } from "react-icons/fa";
-import '../CSS/NextClassCardCSS.css'
+import '../../CSS/NextClassCardCSS.css'
 function NextClassCardComponent(){
     return (
     <>

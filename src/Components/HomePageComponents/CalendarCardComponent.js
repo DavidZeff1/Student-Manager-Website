@@ -1,4 +1,4 @@
-import '../CSS/CalendarCardComponentCSS.css';
+import '../../CSS/CalendarCardComponentCSS.css';
 import { FaCalendarAlt } from "react-icons/fa";
 function CalendarCardComponent(){
     return(
