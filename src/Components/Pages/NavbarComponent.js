@@ -24,7 +24,7 @@ function NavbarComponent(){
             <Link className="icons" to="/">
                 <FaCalendarAlt color="#7B85F9"/>
             </Link>
-            <Link className="icons" to="/">
+            <Link className="icons" to="/profile">
                 <FaGraduationCap color="#7B85F9"/>
             </Link>
         </nav>

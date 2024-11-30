@@ -1,4 +1,5 @@
 import NavbarComponent from "./NavbarComponent"
+import ButtonComponent from "../ButtonComponents/ButtonComponent"
 import TopicCardComponent from "../ClassesPageComponents/TopicCardComponent";
 import '../../CSS/ClassesComponentCSS.css';
 
@@ -58,6 +59,8 @@ function ClassesComponent(){
     topicImg = "/images/books.png" 
     topic = "Philosophy"
 />
+<ButtonComponent buttonText = "Add Course" />
+
                     </div>
                 </div>
             </>

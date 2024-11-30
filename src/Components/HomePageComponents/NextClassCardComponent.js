@@ -1,4 +1,5 @@
 import { FaGraduationCap } from "react-icons/fa";
+import ButtonComponent from "../ButtonComponents/ButtonComponent"
 import '../../CSS/NextClassCardCSS.css'
 function NextClassCardComponent(){
     return (
@@ -17,9 +18,7 @@ function NextClassCardComponent(){
                         08:30 - 11:00
                     </small>
                 </p>
-                <button className="next-class-card-body-button">
-                    Open Course
-                </button>
+                <ButtonComponent buttonText="Open Course"/>
             </div>
         </div>
     </>
